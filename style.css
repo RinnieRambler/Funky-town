@@ -1,0 +1,22 @@
+input {
+    display:block;
+}
+
+h1 {
+    font-family: 'titan-one', sans-serif;
+}
+h2, a {
+    text-transform: uppercase;
+}
+
+.bg-orange {
+    background-color: #FE953D;
+}
+
+.bg-pink {
+    background-color: #EEC1DC;
+}
+
+.bg-yellow {
+    background-color: #FEC001;
+}
