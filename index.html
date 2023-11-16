@@ -38,6 +38,9 @@
                 <a class="text-white px-6 py-2 bg-black rounded-full">Book now</a>
             </div>
         </div>
+        <svg class="rotate-180 w-full relative -bottom-1" viewBox="0 0 2192 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2192 31.6148C2100.67 31.6148 2100.67 111 2009.31 111C1917.96 111 1917.98 31.6148 1826.63 31.6148C1735.27 31.6148 1735.29 111 1643.96 111C1552.63 111 1552.63 31.6148 1461.29 31.6148C1369.96 31.6148 1369.96 111 1278.63 111C1187.29 111 1187.29 31.6148 1095.96 31.6148C1004.63 31.6148 1004.63 111 913.293 111C821.959 111 821.959 31.6148 730.626 31.6148C639.293 31.6148 639.293 111 547.959 111C456.626 111 456.626 31.6148 365.293 31.6148C273.959 31.6148 273.959 111 182.646 111C91.3333 111 91.3333 31.6148 0 31.6148V0H1096H2192V31.6148Z" fill="#EEC1DC"/>
+            </svg>
     </header>
 
     <!----------Image column grid --------->
@@ -62,60 +65,64 @@
 
      <!---------- text and image overlap --------->
 
-    <section class="grid grid-cols-2 bg-pink p-10">
+    <section class="grid grid-cols-2 bg-pink py-10">
         <div>
             <img class="rounded-r-full" src="/images/bold-website-assets/bold-5.jpg" alt="">
         </div>
-        <div>
-            <h2>Duis aute irure</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sequi error ut obcaecati inventore autem, fugiat, ab natus at eius amet. Asperiores, facilis distinctio id possimus porro consequuntur magnam harum.</p>
-            <a class="bg-orange" href="#">Sign up</a>
+        <div class="p-10 flex items-center">
+            <div>
+                <h2>Duis aute irure</h2>
+                <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sequi error ut obcaecati inventore autem, fugiat, ab natus at eius amet. Asperiores, facilis distinctio id possimus porro consequuntur magnam harum.</p>
+                <a class="bg-orange rounded-full py-1 px-9" href="#">Sign up</a>
+            </div>
         </div>
     </section>
 
      <!---------- text and image --------->
 
     <section class="grid grid-cols-2">
-        <div class="bg-yellow">
-            <img src="https://picsum.photos/id/1067/600/400" alt="">
+        <div class="bg-yellow pt-16 px-16">
+            <img class="rounded-t-full" src="/images/bold-website-assets/bold-6.jpg" alt="">
         </div>
-        <div class="bg-orange">
-            <h2 class="text-white">Duis aute irure</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit itaque perspiciatis impedit tempore obcaecati quae maiores vitae esse, harum dicta consectetur repellendus saepe unde sequi nobis tenetur iure minima expedita.</p>
-            <a>Buy now</a>
+        <div class="bg-orange p-10 flex items-end  pb-16 ">
+            <div>
+                <h2 class="text-white">Duis aute irure</h2>
+                <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit itaque perspiciatis impedit tempore obcaecati quae maiores vitae esse, harum dicta consectetur repellendus saepe unde sequi nobis tenetur iure minima expedita.</p>
+                <a class="bg-pink rounded-full py-1 px-9">Buy now</a>
+            </div>
         </div>
     </section>
 
      <!---------- gallery --------->
 
-    <section class="grid grid-cols-4 gap-2 bg-pink">
-        <div class="col-span-2">
-            <img src="https://picsum.photos/id/598/600/400" alt="">
-        </div>
-        <div>
-            <img src="https://picsum.photos/id/642/600/400" alt="">
-        </div>
-        <div>
-            <img src="https://picsum.photos/id/211/600/400" alt="">
-        </div>
+    <section class="grid md:grid-cols-4 gap-2 py-1 bg-pink"> 
+             <div class="col-span-2 relative pb-[50%]">
+                <img class="rounded-r-full absolute h-full w-full" src="/images/bold-website-assets/bold-7.jpg" alt="">
+            </div>
+            <div class="relative pb-[100%]" >
+                <img class="rounded-full absolute h-full w-full" src="/images/bold-website-assets/bold-8.jpg" alt="">
+            </div>
+            <div class="relative pb-[100%]">
+                <img class="rounded-l-full absolute h-full w-full" src="/images/bold-website-assets/bold-9.jpg" alt="">
+            </div>
     </section>
     
      <!---------- contact section --------->
 
     <section class="grid grid-cols-2 bg-orange">
-        <div>
+        <div class="p-5">
             <h2>Contact us</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis officiis iste deserunt doloremque ducimus esse temporibus. Nemo repellendus inventore, explicabo quidem possimus excepturi, architecto numquam, quisquam pariatur earum beatae.</p>
         </div>
-        <div>
+        <div class="p-5">
             <form>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name">
+                <input class="bg-pink rounded-full py-1 px-16" type="text" id="name" name="name">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email">
+                <input class="bg-pink rounded-full py-1 px-16" type="email" id="email" name="email">
                 <label for="message">Message</label>
-                <input type="text" id="message" name="message">
-                <input type="submit" value="send">
+                <input class="bg-pink rounded-lg py-6 px-16" type="text" id="message" name="message">
+                <input class="bg-black text-white rounded-full py-1 px-10" type="submit" value="send">
             </form>
         </div>
     </section>
@@ -123,28 +130,28 @@
      <!---------- footer --------->
 
     <footer class="grid grid-cols-5 bg-pink">
-        <div>
+        <div class="p-5">
             <h4>Lorem ipsum</h4>
             <a>Dolor sit amet</a>
             <a>consecteur</a>
             <a>adipicing elit</a>
             <a>sed do</a>
         </div>
-        <div>
+        <div class="p-5">
             <h4>Lorem ipsum</h4>
             <a>Dolor sit amet</a>
             <a>consecteur</a>
             <a>adipicing elit</a>
             <a>sed do</a>
         </div>
-        <div>
+        <div class="p-5">
             <h4>Lorem ipsum</h4>
             <a>Dolor sit amet</a>
             <a>consecteur</a>
             <a>adipicing elit</a>
             <a>sed do</a>
         </div>
-        <div class="col-span-2">
+        <div class="col-span-2 p-5">
             <h4>Subscribe to our newsletter</h4>
             <form>
                 <input type="email" id="email" name="email">

@@ -10,14 +10,19 @@ h1 {
     font-family: 'Titan One', sans-serif;
 }
 
-h2, a {
-    text-transform: uppercase;
-}
-
-h2 {
+body h2 {
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 0.45rem;
+    text-transform: uppercase;  
+}
+
+body h4 {
+    text-transform: uppercase;
+}
+
+a {
+    text-transform: uppercase;
 }
 
 p, a {
