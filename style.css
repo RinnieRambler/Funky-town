@@ -19,6 +19,8 @@ body h2 {
 
 body h4 {
     text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 a {
