@@ -67,7 +67,7 @@
 
     <section class="grid grid-cols-3 bg-pink p-10 pl-0 relative">
         <div class="col-span-2">
-            <img class="rounded-r-full" src="/images/bold-website-assets/bold-5.jpg" alt="">
+            <img class="rounded-r-full pb-10 md:pb-0" src="/images/bold-website-assets/bold-5.jpg" alt="">
         </div>
         <div class="px-10 md:p-20 grid md:grid-cols-2 col-span-full md:absolute h-full">
             <div></div>
@@ -81,11 +81,11 @@
 
      <!---------- text and image --------->
 
-    <section class="grid grid-cols-2 ">
+    <section class="grid md:grid-cols-2 ">
         <div class="bg-yellow pt-24 flex">
             <img class="rounded-t-full px-20 items-end" src="/images/bold-website-assets/bold-6.jpg" alt="">
         </div>
-        <div class="bg-orange pl-10 pr-20 flex items-end pb-16">
+        <div class="bg-orange pl-10 pr-20 pb-16 pt-16 md:pt-0 flex items-end ">
             <div>
                 <h2 class="text-white">Duis aute irure</h2>
                 <p class="py-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit itaque perspiciatis impedit tempore obcaecati quae maiores vitae esse, harum dicta consectetur repellendus saepe unde sequi nobis tenetur iure minima expedita.</p>
@@ -96,47 +96,50 @@
 
      <!---------- gallery --------->
 
-    <section class="grid md:grid-cols-4 gap-6 pt-14 bg-pink relative"> 
-             <div class="col-span-2 relative pb-[50%]">
+    <section class="flex overflow-x-scroll md:grid md:grid-cols-4 gap-6 py-14 bg-pink relative"> 
+            <div class="col-span-2 relative pb-[32%] md:pb-[50%] basis-2/3 shrink-0">
                 <img class="rounded-r-full absolute h-full w-full" src="/images/bold-website-assets/bold-7.jpg" alt="">
             </div>
-            <div class="relative pb-[100%]">
+            <div class="relative pb-[64%] md:pb-[100%] basis-2/3 shrink-0">
                 <img class="rounded-full absolute h-full w-full" src="/images/bold-website-assets/bold-8.jpg" alt="">
             </div>
-            <div class="relative pb-[100%]">
+            <div class="relative pb-[64%] md:pb-[100%] basis-2/3 shrink-0">
                 <img class="rounded-l-full absolute h-full w-full" src="/images/bold-website-assets/bold-9.jpg" alt="">
             </div>
-            <svg class="rotate-180 w-full col-span-full mt-8 -bottom-1 relative" viewBox="0 0 1440 111" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1816 31.6148C1724.67 31.6148 1724.67 111 1633.31 111C1541.96 111 1541.98 31.6148 1450.63 31.6148C1359.27 31.6148 1359.29 111 1267.96 111C1176.63 111 1176.63 31.6148 1085.29 31.6148C993.959 31.6148 993.959 111 902.626 111C811.293 111 811.293 31.6148 719.959 31.6148C628.626 31.6148 628.626 111 537.293 111C445.959 111 445.959 31.6148 354.626 31.6148C263.293 31.6148 263.293 111 171.959 111C80.6261 111 80.6261 31.6148 -10.7072 31.6148C-102.041 31.6148 -102.041 111 -193.354 111C-284.667 111 -284.667 31.6148 -376 31.6148V0H720H1816V31.6148Z" fill="#FE953D"/>
-                </svg>
+            
     </section>
     
      <!---------- contact section --------->
 
-    <section class="grid grid-cols-2 gap-6 bg-orange p-20 mx-auto">
-       
-        <div class=" flex justify-center pr-10">
-            <div>
-                <h2 class="">Contact us</h2>
-                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis officiis iste deserunt doloremque ducimus esse temporibus. Nemo repellendus inventore, explicabo quidem possimus excepturi, architecto numquam, quisquam pariatur earum beatae.</p>
+    <section class="bg-orange pt-[14vw] mx-auto relative">
+        <svg class="w-full col-span-full -top-1 absolute" viewBox="0 0 1440 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1816 31.6148C1724.67 31.6148 1724.67 111 1633.31 111C1541.96 111 1541.98 31.6148 1450.63 31.6148C1359.27 31.6148 1359.29 111 1267.96 111C1176.63 111 1176.63 31.6148 1085.29 31.6148C993.959 31.6148 993.959 111 902.626 111C811.293 111 811.293 31.6148 719.959 31.6148C628.626 31.6148 628.626 111 537.293 111C445.959 111 445.959 31.6148 354.626 31.6148C263.293 31.6148 263.293 111 171.959 111C80.6261 111 80.6261 31.6148 -10.7072 31.6148C-102.041 31.6148 -102.041 111 -193.354 111C-284.667 111 -284.667 31.6148 -376 31.6148V0H720H1816V31.6148Z" fill="#EEC1DC"/>
+        </svg>
+        <div class="grid md:grid-cols-2 gap-6 p-20">
+            <div class=" flex justify-center pr-10">
+                <div>
+                    <h2 class="">Contact us</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis officiis iste deserunt doloremque ducimus esse temporibus. Nemo repellendus inventore, explicabo quidem possimus excepturi, architecto numquam, quisquam pariatur earum beatae.</p>
+                </div>
             </div>
-        </div>
-        <div class="">
-            <form>
-                <label for="name">Name</label>
-                <input class="bg-pink rounded-full py-1 px-2 w-full mb-5" type="text" id="name" name="name">
-                <label for="email">Email</label>
-                <input class="bg-pink rounded-full py-1 px-2 w-full mb-5" type="email" id="email" name="email">
-                <label for="message">Message</label>
-                <input class="bg-pink rounded-lg py-6 px-2 w-full mb-5" type="text" id="message" name="message">
-                <input class="bg-black text-white rounded-full py-1 px-10 ml-auto" type="submit" value="send">
-            </form>
+            <div class="">
+                <form>
+                    <label for="name">Name</label>
+                    <input class="bg-pink rounded-full py-1 px-2 w-full mb-5" type="text" id="name" name="name">
+                    <label for="email">Email</label>
+                    <input class="bg-pink rounded-full py-1 px-2 w-full mb-5" type="email" id="email" name="email">
+                    <label for="message">Message</label>
+                    <input class="bg-pink rounded-lg py-6 px-2 w-full mb-5" type="text" id="message" name="message">
+                    <input class="bg-black text-white rounded-full py-1 px-10 ml-auto" type="submit" value="send">
+                </form>
+            </div>
+
         </div>
     </section>
 
      <!---------- footer --------->
 
-    <footer class="grid grid-cols-5 gap-x-12 relative bg-pink p-20 pt-[10vw]">
+    <footer class="grid grid-cols-3 md:grid-cols-5 gap-12 relative bg-pink p-20 pt-[10vw]">
         <svg class="w-full absolute" viewBox="0 0 1440 111" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1816 31.6148C1724.67 31.6148 1724.67 111 1633.31 111C1541.96 111 1541.98 31.6148 1450.63 31.6148C1359.27 31.6148 1359.29 111 1267.96 111C1176.63 111 1176.63 31.6148 1085.29 31.6148C993.959 31.6148 993.959 111 902.626 111C811.293 111 811.293 31.6148 719.959 31.6148C628.626 31.6148 628.626 111 537.293 111C445.959 111 445.959 31.6148 354.626 31.6148C263.293 31.6148 263.293 111 171.959 111C80.6261 111 80.6261 31.6148 -10.7072 31.6148C-102.041 31.6148 -102.041 111 -193.354 111C-284.667 111 -284.667 31.6148 -376 31.6148V0H720H1816V31.6148Z" fill="#FE953D"/>
             </svg>
@@ -161,7 +164,7 @@
             <a>adipicing elit</a>
             <a>sed do</a>
         </div>
-        <div class="col-span-2">
+        <div class="col-span-full md:col-span-2">
             <h4 class="pb-5">Subscribe to our newsletter</h4>
             <form>
                 <input class="bg-orange rounded-full w-full" type="email" id="email" name="email">
